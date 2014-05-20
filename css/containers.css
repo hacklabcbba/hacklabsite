@@ -1,0 +1,64 @@
+body {
+    color: #FFF;
+}
+#top-banner {
+    background-image: url("../img/header_web_hacklab.jpg");
+    height: 203px;
+    background-repeat: no-repeat;
+}
+
+#top-menu.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+#top-menu.navbar-default .navbar-nav > .active > a  {
+    color#FFF;
+    background-color: #3ab54b;
+}
+
+@media only screen
+and (min-device-width : 768px) {
+    #top-menu.navbar-default .navbar-nav {
+        background-image: url("../img/base_top_menu.png");
+        background-repeat: repeat-x;
+    }
+}
+
+
+section#que-somos, section#que-hacemos, section#quienes, section#donde {
+    display:block;
+}
+
+section#que-somos > .container > .jumbotron > h1 {
+    background-image: url("../img/conector.png");
+    height:61px;
+    display:block;
+    background-repeat: no-repeat;
+    padding-left:80px;
+}
+
+
+section#que-hacemos > .container > .jumbotron > h1 {
+    background-image: url("../img/hackaton.png");
+    height:61px;
+    display:block;
+    background-repeat: no-repeat;
+    padding-left:80px;
+}
+
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron h1 {
+    font-size: 43px;
+}
+
+.jumbotron h2 {
+    font-size:23px;
+}
+
+.jumbotron p {
+    font-size: 16px;
+}
+
