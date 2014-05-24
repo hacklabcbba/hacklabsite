@@ -70,3 +70,7 @@ section#que-hacemos > .container > .jumbotron > h1 {
     font-size: 16px;
 }
 
+section {
+  padding-bottom: 10px;
+}
+
