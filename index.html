@@ -14,7 +14,6 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./css/navbar-fixed-top.css" rel="stylesheet">
     <link href="./css/colors.css" rel="stylesheet">
     <link href="./css/containers.css" rel="stylesheet">
 
@@ -30,31 +29,36 @@
 
 <body>
 <!-- Fixed navbar -->
-<div class="center-block" id="top-banner"></div>
-<div class="navbar navbar-default navbar-fixed-top green1" id="top-menu" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+<header>
+    <div class="center-block" id="top-banner"></div>
+</header>
+<div id="top-menu">
+    <div class="navbar navbar-default navbar-static green1" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#que-somos">Qué somos</a></li>
+                    <li><a href="#que-hacemos">Qué hacemos</a></li>
+                    <li><a href="#quienes">Quiénes formamos parte</a></li>
+                    <li><a href="#donde">Dónde nos encuentras</a></li>
+                    <li><a href="wiki">Wiki</a></li>
+                    <li><a href="#manifiesto">Manifiesto</a></li>
+                    <li><a href="#barrio">Barrio Hacker</a></li>
+                    <li><a href="#hablemos">Hablemos</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
         </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#que-somos">Qué somos</a></li>
-                <li><a href="#que-hacemos">Qué hacemos</a></li>
-                <li><a href="#quienes">Quiénes formamos parte</a></li>
-                <li><a href="#donde">Dónde nos encuentras</a></li>
-                <li><a href="wiki">Wiki</a></li>
-                <li><a href="#manifiesto">Manifiesto</a></li>
-                <li><a href="#barrio">Barrio Hacker</a></li>
-                <li><a href="#hablemos">Hablemos</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
     </div>
 </div>
+
 
 <section id="que-somos" class="green2">
     <div class="container">
@@ -134,6 +138,6 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
-</body>
+<script src="./js/site.js"></script></body>
 </html>
 

@@ -2,37 +2,47 @@ body {
     color: #FFF;
 }
 
+header {
+    height: 103px;
+}
+
+#top-menu.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+    margin-bottom: 100px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
 #top-banner {
     background-image: url("../img/header_web_hacklab.jpg");
     height: 103px;
     background-repeat: no-repeat;
-    background-size:100% auto;
+    background-size: 100% auto;
 }
 
 @media only screen
 and (min-device-width : 768px) {
-  #top-banner {
-     height: 203px;
-  }
+    header {
+        height: 242px;
+    }
+    #top-banner {
+        height: 242px;
+    }
 }
 
-#top-menu.navbar-default .navbar-nav > li > a {
+#top-menu > .navbar-default .navbar-nav > li > a {
     color: #FFF;
 }
 
-#top-menu.navbar-default .navbar-nav > .active > a  {
+#top-menu > .navbar-default .navbar-nav > .active > a  {
     color#FFF;
     background-color: #3ab54b;
 }
-
-/*
-@media only screen
-and (min-device-width : 768px) {
-    #top-menu.navbar-default .navbar-nav {
-        background-image: url("../img/base_top_menu.png");
-        background-repeat: repeat-x;
-    }
-}*/
 
 section#que-somos, section#que-hacemos, section#quienes, section#donde {
     display:block;
