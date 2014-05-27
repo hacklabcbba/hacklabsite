@@ -33,6 +33,12 @@ and (min-device-width : 768px) {
     #top-banner {
         height: 242px;
     }
+    section#donde {
+        height: 700px;
+    }
+    section#donde > .jumbotron {
+        padding-top:0px;
+    }
 }
 
 #top-menu > .navbar-default .navbar-nav > li > a {
@@ -64,8 +70,13 @@ section#que-hacemos > .container > .jumbotron > h1 {
     padding-left:80px;
 }
 
+section#quienes {
+    padding-bottom: 100px;
+}
+
 .jumbotron {
     background: transparent;
+
 }
 
 .jumbotron h1 {
@@ -81,6 +92,7 @@ section#que-hacemos > .container > .jumbotron > h1 {
 }
 
 section {
-  padding-bottom: 10px;
+    padding-top: 50px;
+    margin-top: -50px;
 }
 
