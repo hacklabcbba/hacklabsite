@@ -3,9 +3,8 @@ body {
 }
 
 header {
-    height: 127px;
+    height: 157px;
 }
-
 #top-menu.affix {
     position: fixed;
     top: 0;
@@ -21,15 +20,15 @@ header {
 #top-banner {
     background-image: url("../img/bg_hacklab.png");
 	background-color:#339966;
-	height: 127px;
+	height: 157px;
     padding-top:2%;
-    /*background-repeat: no-repeat;
-    background-size: 100% auto;*/
 }
 
 #logo {
     background-image: url("../img/logo_hacklab.png");
-	height: 207px;
+	width: 894px;
+    height: 127px;
+    float: none;
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -37,10 +36,10 @@ header {
 @media only screen
 and (min-device-width : 768px) {
     header {
-        height: 242px;
+        height: 180px;
     }
     #top-banner {
-        height: 242px;
+        height: 180px;
     }
     section#donde {
         height: 700px;
