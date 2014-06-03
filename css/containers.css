@@ -2,10 +2,10 @@ body {
     color: #FFF;
 }
 
-header {
-    height: 127px;
-}
 
+header {
+    height: 157px;
+}
 #top-menu.affix {
     position: fixed;
     top: 0;
@@ -21,15 +21,15 @@ header {
 #top-banner {
     background-image: url("../img/bg_hacklab.png");
 	background-color:#339966;
-	height: 127px;
+	height: 157px;
     padding-top:2%;
-    /*background-repeat: no-repeat;
-    background-size: 100% auto;*/
 }
 
 #logo {
     background-image: url("../img/logo_hacklab.png");
-	height: 207px;
+	width: 894px;
+    height: 127px;
+    float: none;
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -37,10 +37,10 @@ header {
 @media only screen
 and (min-device-width : 768px) {
     header {
-        height: 242px;
+        height: 180px;
     }
     #top-banner {
-        height: 242px;
+        height: 180px;
     }
     section#donde {
         height: 700px;
@@ -55,7 +55,7 @@ and (min-device-width : 768px) {
 }
 
 #top-menu > .navbar-default .navbar-nav > .active > a  {
-    color#FFF;
+    color: #FFF;
     background-color: #3ab54b;
 }
 
@@ -79,9 +79,60 @@ section#que-hacemos > .container > .jumbotron > h1 {
     padding-left:80px;
 }
 
+section#quienes > .container > .jumbotron > h1 {
+    background-image: url("../img/openaccess.png");
+    height:68px;
+    display:block;
+    background-repeat: no-repeat;
+    padding-left:80px;
+}
+
+section#donde > .container > .jumbotron > h1 {
+    background-image: url("../img/publicdomain.png");
+    height:68px;
+    display:block;
+    background-repeat: no-repeat;
+    padding-left:80px;
+}
+
+section#wiki > .container > .jumbotron > h1 {
+    background-image: url("../img/connexioncube.png");
+    height:68px;
+    display:block;
+    background-repeat: no-repeat;
+    padding-left:80px;
+}
+
+section#manifiesto > .container > .jumbotron > h1 {
+    background-image: url("../img/maker.png");
+    height:68px;
+    display:block;
+    background-repeat: no-repeat;
+    padding-left:80px;
+}
+
+section#barriohacker > .container > .jumbotron > h1 {
+    background-image: url("../img/sustainableenergy.png");
+    height:61px;
+    display:block;
+    background-repeat: no-repeat;
+    padding-left:95px;
+}
+
+section#hablemos > .container > .jumbotron > h1 {
+    background-image: url("../img/shareidea.png");
+    height:81px;
+    display:block;
+    background-repeat: no-repeat;
+    padding-left:95px;
+}
+
+
 section#quienes {
     padding-bottom: 100px;
 }
+
+
 
 .jumbotron {
     background: transparent;
@@ -100,8 +151,13 @@ section#quienes {
     font-size: 16px;
 }
 
+
+.jumbotron h4 {
+    font-size: 12px;
+}
+
 section {
-    padding-top: 50px;
-    margin-top: -50px;
+    padding-top: 25px;
+    margin-top: -25px;
 }
 
