@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    height: 103px;
+    height: 127px;
 }
 
 #top-menu.affix {
@@ -21,9 +21,17 @@ header {
 #top-banner {
     background-image: url("../img/bg_hacklab.png");
 	background-color:#339966;
-	height: 103px;
+	height: 127px;
+    padding-top:2%;
     /*background-repeat: no-repeat;
     background-size: 100% auto;*/
+}
+
+#logo {
+    background-image: url("../img/logo_hacklab.png");
+	height: 207px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 @media only screen
