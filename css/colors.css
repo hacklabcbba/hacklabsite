@@ -7,15 +7,35 @@
 }
 
 .green3 {
-    background-color: #c9c320;
+    background-color: #adc40f;
 }
 
 .green4 {
-    background-color: #d8f222;
+    background-color: #c9db8b;
 }
 
 .green5 {
-    background-color: #0a9c63;
+    background-color: #c6e10b;
+}
+
+.green6 {
+    background-color: #58daab;
+}
+
+.green7 {
+    background-color: #09c4c6;
+}
+
+.green8 {
+    background-color: #06adaf;
+}
+
+.green9 {
+    background-color: #3ebb7f;
+}
+
+.footer {
+    background-color: #95a9a2;
 }
 
 body {
