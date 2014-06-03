@@ -19,10 +19,11 @@ header {
 }
 
 #top-banner {
-    background-image: url("../img/header_web_hacklab.jpg");
-    height: 103px;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-image: url("../img/bg_hacklab.png");
+	background-color:#339966;
+	height: 103px;
+    /*background-repeat: no-repeat;
+    background-size: 100% auto;*/
 }
 
 @media only screen
