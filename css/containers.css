@@ -54,7 +54,7 @@ and (min-device-width : 768px) {
 }
 
 #top-menu > .navbar-default .navbar-nav > .active > a  {
-    color#FFF;
+    color: #FFF;
     background-color: #3ab54b;
 }
 
