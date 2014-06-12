@@ -35,6 +35,7 @@ header {
 .navbar-item {
     opacity: 0.6;
     position: relative;
+    -webkit-transition: opacity 0.2s ease-in-out 0s;
     transition: opacity 0.2s ease-in-out 0s;
 }
 
@@ -46,7 +47,9 @@ header {
     height: 1px;
     z-index: 10;
     background-color: #FFF;
+    -webkit-transform: scaleX(0);
     transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;
 }
 
@@ -55,6 +58,7 @@ header {
 }
 
 .navbar-item:hover:before {
+    -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
 
