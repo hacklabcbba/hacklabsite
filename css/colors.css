@@ -6,6 +6,17 @@
     background-color: #6fa408;
 }
 
+a {
+	color:#FC0;
+	text-decoration:underline;
+	}
+
+.linkclaro{
+	color:#399;
+	text-decoration:underline;
+	
+	}
+
 .green3 {
     background-color: #adc40f;
 }
