@@ -1,5 +1,6 @@
 body {
     color: #FFF;
+	text-align:left;
 }
 
 
@@ -86,11 +87,10 @@ and (min-device-width : 768px) {
     #top-banner {
         height: 180px;
     }
-    section#donde {
-        height: 700px;
-    }
-    section#donde > .jumbotron {
+
+	section#donde > .jumbotron {
         padding-top:0px;
+		
     }
 }
 
@@ -113,6 +113,7 @@ section#que-somos > .container > .jumbotron > h1 {
     display:block;
     background-repeat: no-repeat;
     padding-left:80px;
+	margin-bottom:40px;
 }
 
 section#que-hacemos > .container > .jumbotron > h1 {
@@ -121,6 +122,7 @@ section#que-hacemos > .container > .jumbotron > h1 {
     display:block;
     background-repeat: no-repeat;
     padding-left:80px;
+	margin-bottom:40px;
 }
 
 section#quienes > .container > .jumbotron > h1 {
@@ -129,6 +131,7 @@ section#quienes > .container > .jumbotron > h1 {
     display:block;
     background-repeat: no-repeat;
     padding-left:80px;
+	margin-bottom:60px;
 }
 
 section#donde > .container > .jumbotron > h1 {
@@ -137,7 +140,10 @@ section#donde > .container > .jumbotron > h1 {
     display:block;
     background-repeat: no-repeat;
     padding-left:80px;
+	margin-bottom:40px;
+
 }
+
 
 section#wiki > .container > .jumbotron > h1 {
     background-image: url("../img/connexioncube.png");
@@ -145,6 +151,7 @@ section#wiki > .container > .jumbotron > h1 {
     display:block;
     background-repeat: no-repeat;
     padding-left:80px;
+	margin-bottom:40px;
 }
 
 section#manifiesto > .container > .jumbotron > h1 {
@@ -153,6 +160,7 @@ section#manifiesto > .container > .jumbotron > h1 {
     display:block;
     background-repeat: no-repeat;
     padding-left:80px;
+	margin-bottom:40px;
 }
 
 section#barriohacker > .container > .jumbotron > h1 {
@@ -161,6 +169,7 @@ section#barriohacker > .container > .jumbotron > h1 {
     display:block;
     background-repeat: no-repeat;
     padding-left:95px;
+	margin-bottom:40px;
 }
 
 section#hablemos > .container > .jumbotron > h1 {
@@ -169,6 +178,7 @@ section#hablemos > .container > .jumbotron > h1 {
     display:block;
     background-repeat: no-repeat;
     padding-left:95px;
+	margin-bottom:40px;
 }
 
 
