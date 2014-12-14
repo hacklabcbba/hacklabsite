@@ -1,0 +1,10 @@
+
+@media screen and (max-width: 1024px){
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 15px 8px;
+    }
+
+
+
+}

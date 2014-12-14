@@ -124,7 +124,7 @@ header {
 
 #donde > .container > .jumbotron > div > a {
     text-decoration: none;
-    margin: 20px;
+    margin: 20px 15px;
 }
 
 #donde > .container > .jumbotron > div > a > img.icon {
