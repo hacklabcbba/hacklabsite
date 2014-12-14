@@ -1,217 +1,193 @@
+
 body {
     color: #FFF;
-	text-align:left;
+    text-align: left;
 }
 
+a {
+    color: #FFF;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    -moz-text-decoration-style: dotted;
+    text-decoration-color: rgba(255, 255, 255, 0.8);
+    -moz-text-decoration-color: rgba(255, 255, 255, 0.8);
+}
 
+a:hover {
+    color: #FFF;
+    text-decoration-style: dotted;
+    -moz-text-decoration-style: dotted;
+    text-decoration-color: rgba(255, 255, 255, 1);
+    -moz-text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+q {
+    quotes: "«" "»";
+    font-style: italic;
+}
+
+/* header */
 header {
     height: 157px;
-}
-#top-menu.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:10;
-    margin-bottom: 100px;
-}
-
-.navbar-default {
-    border: 0;
-}
-
-.navbar {
-    text-align: center;
-    padding-top: 16px;
-}
-
-.nav > li {
-    display: inline;
-    margin: 0px 17px;
-}
-
-.nav > li > a {
-    padding: 0px;
-}
-
-.navbar-item {
-    opacity: 0.6;
-    position: relative;
-    -webkit-transition: opacity 0.2s ease-in-out 0s;
-    transition: opacity 0.2s ease-in-out 0s;
-}
-
-.navbar-item:before {
-    content: "";
-    position: absolute;
-    bottom: -2px;
-    width: 100%;
-    height: 1px;
-    z-index: 10;
-    background-color: #FFF;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.2s ease-in-out 0s;
-    transition: all 0.2s ease-in-out 0s;
-}
-
-.navbar-item:hover {
-    opacity: 1;
-}
-
-.navbar-item:hover:before {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
 }
 
 #top-banner {
     background-image: url("../img/bg_hacklab.png");
-    background-color:#339966;
+    background-color: #339966;
     height: 157px;
-    padding-top:2%;
 }
 
 #logo {
     background-image: url("../img/logo_hacklab.png");
-    width: 894px;
-    height: 127px;
-    float: none;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    position: relative;
+    top: 15px;
+    width: 894px;
+    height: 127px;
 }
 
-@media only screen
-and (min-device-width : 768px) {
-    header {
-        height: 180px;
-    }
-    #top-banner {
-        height: 180px;
-    }
-
-	section#donde > .jumbotron {
-        padding-top:0px;
-		
-    }
+/* top menu */
+#top-menu.affix {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 100px;
 }
 
-#top-menu > .navbar-default .navbar-nav > li > a {
+#top-menu > div {
+    margin: 0px;
+    border: 0px none;
+    border-radius: 0px;
+}
+
+div.navbar > div.container {
+    width: 100%;
+    padding: 0px;
+}
+
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: table;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 15px 8px;
     color: #FFF;
+    opacity: 0.7;
+    text-decoration: none;
+    text-align: center;
 }
 
-#top-menu > .navbar-default .navbar-nav > .active > a  {
+.navbar-default .navbar-nav > li > a:hover {
     color: #FFF;
-    background-color: #3ab54b;
+    opacity: 1;
 }
 
-section#que-somos, section#que-hacemos, section#quienes, section#donde {
-    display:block;
+.navbar-default .navbar-nav > li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 10px;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0.2s;
+    transition: all 0.2s ease-in-out 0.2s;
 }
 
-section#que-somos > .container > .jumbotron > h1 {
-    background-image: url("../img/conector.png");
-    height:61px;
-    display:block;
-    background-repeat: no-repeat;
-    padding-left:80px;
-	margin-bottom:40px;
+.navbar-default .navbar-nav > li > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
-section#que-hacemos > .container > .jumbotron > h1 {
-    background-image: url("../img/hackaton.png");
-    height:61px;
-    display:block;
-    background-repeat: no-repeat;
-    padding-left:80px;
-	margin-bottom:40px;
-}
-
-section#quienes > .container > .jumbotron > h1 {
-    background-image: url("../img/openaccess.png");
-    height:68px;
-    display:block;
-    background-repeat: no-repeat;
-    padding-left:80px;
-	margin-bottom:60px;
-}
-
-section#donde > .container > .jumbotron > h1 {
-    background-image: url("../img/publicdomain.png");
-    height:68px;
-    display:block;
-    background-repeat: no-repeat;
-    padding-left:80px;
-	margin-bottom:40px;
-
-}
-
-
-section#wiki > .container > .jumbotron > h1 {
-    background-image: url("../img/connexioncube.png");
-    height:68px;
-    display:block;
-    background-repeat: no-repeat;
-    padding-left:80px;
-	margin-bottom:40px;
-}
-
-section#manifiesto > .container > .jumbotron > h1 {
-    background-image: url("../img/maker.png");
-    height:68px;
-    display:block;
-    background-repeat: no-repeat;
-    padding-left:80px;
-	margin-bottom:40px;
-}
-
-section#barriohacker > .container > .jumbotron > h1 {
-    background-image: url("../img/sustainableenergy.png");
-    height:61px;
-    display:block;
-    background-repeat: no-repeat;
-    padding-left:95px;
-	margin-bottom:40px;
-}
-
-section#hablemos > .container > .jumbotron > h1 {
-    background-image: url("../img/shareidea.png");
-    height:81px;
-    display:block;
-    background-repeat: no-repeat;
-    padding-left:95px;
-	margin-bottom:40px;
-}
-
-
-section#quienes {
-    padding-bottom: 100px;
-}
-
-
+/* sections */
 
 .jumbotron {
-    background: transparent;
-
+    margin: 0px;
+    padding: 60px;
+    background: none repeat scroll 0% 0% transparent;
+    border-radius: 0px !important;
 }
 
 .jumbotron h1 {
+    display: inline-block;
+    margin: 20px 0px;
+    height: 70px;
+    padding-left: 90px;
     font-size: 43px;
+    line-height: 70px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
 }
 
-.jumbotron h2 {
-    font-size:23px;
+.jumbotron h2 { font-size: 23px; }
+.jumbotron h4 { font-size: 23px; }
+.jumbotron p { font-size: 16px; }
+
+#que-somos h1 { background-image: url("../img/noun_conector.png"); }
+
+#que-hacemos h1 { background-image: url("../img/noun_hackaton.png"); }
+
+#quienes h1 { background-image: url("../img/noun_openaccess.png"); }
+
+#quienes > .container > .jumbotron > div { text-align: center; }
+
+#quienes > .container > .jumbotron > div > div.logo {
+    float: left;
+    height: 100px;
+    width: 33%;
 }
 
-.jumbotron p {
-    font-size: 16px;
+#quienes > .container > .jumbotron > div > a { text-decoration: none; }
+
+#quienes > .container > .jumbotron > div > a > img.logo {
+    height: 60px;
+    width: 177px;
 }
 
+#donde h1 { background-image: url("../img/noun_publicdomain.png"); }
 
-.jumbotron h4 {
-    font-size: 12px;
+#donde > .container > .jumbotron > div { text-align: center; }
+
+#donde > .container > .jumbotron > div > a {
+    text-decoration: none;
+    margin: 10px 0px;
 }
 
-section {
-    padding-top: 25px;
-    margin-top: -25px;
+#donde > .container > .jumbotron > div > a > img.icon {
+    height: 101px;
+    width: 101px;
+    opacity: 0.7;
+}
+
+#wiki h1 { background-image: url("../img/noun_connexioncube.png"); }
+
+#manifiesto h1 { background-image: url("../img/noun_maker.png"); }
+
+#barriohacker h1 { background-image: url("../img/noun_sustainableenergy.png"); }
+
+#barriohacker > .container > .jumbotron > div.videoplayer {
+    height: 420px;
+    width: 640px;
+    margin: 0px auto;
+}
+
+#hablemos h1 { background-image: url("../img/noun_shareidea.png"); }
+
+/* footer */
+#footer > .container > .jumbotron {
+    padding: 30px 60px;
+}
+
+#footer > .container > .jumbotron > p {
+    margin-bottom: 5px;
+    font-size: 10px;
 }
 
