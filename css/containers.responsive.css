@@ -1,10 +1,147 @@
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 359px) {
 
-    .navbar-default .navbar-nav > li > a {
-        padding: 15px 8px;
+    header, #top-banner {
+        height: 71px;
     }
 
+    #logo {
+        width: 290px;
+        height: 41px;
+    }
 
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+    header, #top-banner {
+        height: 77px;
+    }
+
+    #logo {
+        width: 330px;
+        height: 47px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    header, #top-banner {
+        height: 135px;
+    }
+
+    #logo {
+        width: 738px;
+        height: 105px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+
+    /* video */
+    #barriohacker > .container > .jumbotron > div.videoplayer {
+        height: 230px !important;
+        width: 260px !important;
+    }
+
+}
+
+@media screen and (max-width: 639px) {
+
+    /* imgs */
+    #quienes > .container > .jumbotron > div > div.logo {
+        width: 100% !important;
+    }
+
+    /* video */
+    #barriohacker > .container > .jumbotron > div.videoplayer {
+        height: 280px !important;
+        width: 300px !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    /* sections */
+    .jumbotron h1 {
+        height: 25px !important;
+        padding-left: 35px !important;
+        font-size: 16px !important;
+        line-height: 25px !important;
+        background-size: 30px !important;
+    }
+
+    .jumbotron h2 {
+        font-size: 14px;
+    }
+
+    .jumbotron p {
+        font-size: 12px;
+    }
+
+    /* imgs */
+    #quienes > .container > .jumbotron > div > div.logo {
+        width: 50%;
+        height: 80px;
+    }
+
+    #quienes > .container > .jumbotron > div > div.logo:nth-child(9) {
+        width: 100%;
+    }
+
+    #donde > .container > .jumbotron > div > a > img.icon {
+        padding: 10px;
+    }
+
+    /* video */
+    #barriohacker > .container > .jumbotron > div.videoplayer {
+        height: 330px;
+        width: 480px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+    /* menu */
+    .container > .navbar-header {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #FFF;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /* sections */
+    .container .jumbotron {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .jumbotron h1 {
+        margin: 10px 0px;
+        height: 35px;
+        padding-left: 40px;
+        font-size: 21px;
+        line-height: 35px;
+        background-size: 40px;
+    }
+
+    .jumbotron h2 {
+        font-size: 16px;
+    }
+
+    .jumbotron p {
+        font-size: 14px;
+    }
 
 }

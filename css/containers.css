@@ -62,15 +62,49 @@ header {
     border-radius: 0px;
 }
 
+div.navbar > div.container {
+    width: 100%;
+    padding: 0px;
+}
+
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: table;
+}
+
 .navbar-default .navbar-nav > li > a {
+    padding: 15px 8px;
     color: #FFF;
     opacity: 0.7;
     text-decoration: none;
+    text-align: center;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #FFF;
     opacity: 1;
+}
+
+.navbar-default .navbar-nav > li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 10px;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0.2s;
+    transition: all 0.2s ease-in-out 0.2s;
+}
+
+.navbar-default .navbar-nav > li > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 /* sections */
@@ -124,7 +158,7 @@ header {
 
 #donde > .container > .jumbotron > div > a {
     text-decoration: none;
-    margin: 20px 15px;
+    margin: 10px 0px;
 }
 
 #donde > .container > .jumbotron > div > a > img.icon {
@@ -140,7 +174,7 @@ header {
 #barriohacker h1 { background-image: url("../img/noun_sustainableenergy.png"); }
 
 #barriohacker > .container > .jumbotron > div.videoplayer {
-    height: 385px;
+    height: 420px;
     width: 640px;
     margin: 0px auto;
 }
