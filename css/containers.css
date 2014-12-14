@@ -81,7 +81,8 @@ div.navbar > div.container {
     text-align: center;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
     color: #FFF;
     opacity: 1;
 }
@@ -98,6 +99,8 @@ div.navbar > div.container {
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transition: all 0.2s ease-in-out 0.2s;
+    -moz-transition: all 0.2s ease-in-out 0.2s;
+    -ms-transition: all 0.2s ease-in-out 0.2s;
     transition: all 0.2s ease-in-out 0.2s;
 }
 
@@ -105,6 +108,14 @@ div.navbar > div.container {
     visibility: visible;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    opacity: 1;
+    background-color: transparent;
 }
 
 /* sections */

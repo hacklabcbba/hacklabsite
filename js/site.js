@@ -6,6 +6,12 @@ $('#top-menu').affix({
     }
 });
 
+// scrollspy
+$('body').scrollspy({
+    target: '.navbar-collapse',
+    offset: 100
+});
+
 // back-to-top button
 $('body').scrollToTop({
     skin: 'cycle'
