@@ -67,19 +67,20 @@
 
     /* sections */
     .jumbotron h1 {
-        height: 25px !important;
+        height: 50px !important;
         padding-left: 35px !important;
-        font-size: 16px !important;
+        font-size: 14px !important;
         line-height: 25px !important;
         background-size: 30px !important;
     }
 
     .jumbotron h2 {
-        font-size: 14px;
+        font-size: 13px !important;
     }
 
-    .jumbotron p {
-        font-size: 12px;
+    .jumbotron p,
+    .jumbotron ul {
+        font-size: 11px !important;
     }
 
     /* imgs */
@@ -123,8 +124,8 @@
 
     /* sections */
     .container .jumbotron {
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .jumbotron h1 {

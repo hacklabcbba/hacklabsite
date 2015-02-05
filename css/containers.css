@@ -191,14 +191,3 @@ div.navbar > div.container {
 }
 
 #hablemos h1 { background-image: url("../img/noun_shareidea.png"); }
-
-/* footer */
-#footer > .container > .jumbotron {
-    padding: 30px 60px;
-}
-
-#footer > .container > .jumbotron > p {
-    margin-bottom: 5px;
-    font-size: 10px;
-}
-
