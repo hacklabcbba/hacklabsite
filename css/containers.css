@@ -73,6 +73,10 @@ div.navbar > div.container {
     display: table;
 }
 
+.navbar-default .navbar-toggle { border-color: #2E8D3B; }
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { background-color: #2E8D3B; }
+
 .navbar-default .navbar-nav > li > a {
     padding: 15px 8px;
     color: #FFF;
