@@ -132,8 +132,8 @@ div.navbar > div.container {
     margin: 20px 0px;
     height: 70px;
     padding-left: 90px;
-    font-size: 43px;
-    line-height: 70px;
+    font-size: 35px;
+    line-height: 30px;
     vertical-align: middle;
     background-repeat: no-repeat;
 }
@@ -190,6 +190,16 @@ div.navbar > div.container {
     margin: 0px auto;
 }
 
+
+#trayectorias h1 { background-image: url("../img/noun_sustainableenergy.png"); text-align:center; }
+
+#trayectorias > .container > .jumbotron > div.videoplayer {
+    height: 420px;
+    width: 640px;
+    margin: 0px auto;
+}
+
+
 #hablemos h1 { background-image: url("../img/noun_shareidea.png"); }
 
 /* footer */
@@ -202,3 +212,13 @@ div.navbar > div.container {
     font-size: 10px;
 }
 
+#imglogo {
+	width: 510px;
+    font-size: 10px;
+	float:left;
+
+}
+
+.imglogo img{
+	margin-right:15px;
+}
