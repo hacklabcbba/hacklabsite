@@ -171,6 +171,14 @@ div.navbar > div.container {
 
 #donde > .container > .jumbotron > div { text-align: center; }
 
+#donde > .container > .jumbotron > div#map {
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
 #donde > .container > .jumbotron > div > a {
     text-decoration: none;
     margin: 10px 0px;
@@ -218,14 +226,14 @@ div.navbar > div.container {
 }
 
 #imglogo {
-	width: 510px;
+    width: 510px;
     font-size: 10px;
-	float:left;
+    float:left;
 
 }
 
 .imglogo img{
-	margin-right:15px;
+    margin-right:15px;
 }
 =======
 >>>>>>> FETCH_HEAD
